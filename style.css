@@ -38,8 +38,20 @@ body {
   );
   height: 320px;
   width: 320px;
+  position: absolute;
   top: -10px;
   left: -10px;
   z-index: -2;
+  border-radius: 50%;
+}
+
+.circle {
+  background-color: #1d2671;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
   border-radius: 50%;
 }
