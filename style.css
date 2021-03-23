@@ -63,7 +63,7 @@ body {
   width: 20px;
   height: 190px;
   /* background: red;// to identify where the pointer is positioned */
-  animation: rotation 7.5s linear forwards infinite;
+  animation: rotate 7.5s linear forwards infinite;
   transform-origin: bottom center;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 /* ANIMATIONS FOR POINTER TO ROTATE FULL CIRCLE */
-@keyframes rotation {
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
